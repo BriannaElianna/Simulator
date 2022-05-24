@@ -13,6 +13,28 @@ body {
   }
   
 div.MainArea {
+    background-color: rgba(245, 222, 179, 0.450);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(245, 222, 179, 0.450);
+    padding: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    /* border-radius */
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+	color: black; 
+    /* box-shadow */
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+}
+
+div.rpdr {
     background-image: url("../Images/Backgrounds/rpdr.gif");
 	background-attachment: fixed;
     background-position: center;
@@ -177,6 +199,9 @@ a {
   outline: none;
   text-decoration: none;
   padding: 2px 1px 0;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
 }
 
 a:link {
